@@ -1,0 +1,18 @@
+class Buku:
+# class Attribute
+    jenisbuku = 'llmupengetahuan'
+# Initializer / Instance Attributes
+    def __init__(self, judul, kode):
+        self.judul = judul
+        self.kode = kode
+# instance method
+    def deskripsi(self):
+        return "{} adalah {} paling banyak dibaca".format(self.judul, self.kode)
+# instance method
+    def bacaan(self, teks):
+        return "{} says {}".format(self.judul, teks)
+# Instansiasi objek Buku
+akutansimanajemen012 = Buku("Akutansimanajemen012", buku)
+# memanggil isi method instansiasi
+print(akutansimanajemen012.deskripsi())
+print(akutansimanajemen012.bacaan("berhasil"))
