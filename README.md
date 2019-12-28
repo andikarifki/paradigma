@@ -1,1 +1,2 @@
-# minggu satu
+# welcome my github
+# kulonuwun
